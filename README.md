@@ -26,6 +26,9 @@
 在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
 ### 搭建过程可能需要查阅的一些资料
+* 搭建博客视频教程
+> https://www.bilibili.com/video/BV14x411t7ZU?from=search&seid=2757499629640417432
+
 * 安装Atom
 >  https://www.cnblogs.com/EasonJim/p/7570667.html
 
