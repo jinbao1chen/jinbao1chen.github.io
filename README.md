@@ -61,7 +61,9 @@
 正文...
 
 title: 显示的文章名， 如：title: 我的第一篇文章
+
 date: 显示的文章发布日期，如：date: 2016-10-16
+
 categories: tag标签的分类，如：categories: 随笔
 
 注意：文章头部格式必须为上面的，…. 就是文章的正文内容。
@@ -83,6 +85,8 @@ categories: tag标签的分类，如：categories: 随笔
 3.commit推送,将缓存区的修改提交到本地仓库: git commit -m "first time to upload github"
 
 4.如果该仓库是第一次进行push，则指令如下：git push origin master
+
+4.1 如果不能push成功，多push几次。https://blog.csdn.net/u013171226/article/details/115306396
 
 5.之前已经传输过，此处只是更新，所以只需输入：git push
 
