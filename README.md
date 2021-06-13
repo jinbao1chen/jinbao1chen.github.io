@@ -77,10 +77,15 @@ categories: tag标签的分类，如：categories: 随笔
 
 ### 如何git push
 1.本地仓库修改完毕后，进入到~/github/jinbao1chen.github.io$执行：git add .
+
 2.检查当前的git状态: git status
+
 3.commit推送,将缓存区的修改提交到本地仓库: git commit -m "first time to upload github"
+
 4.如果该仓库是第一次进行push，则指令如下：git push origin master
+
 5.之前已经传输过，此处只是更新，所以只需输入：git push
+
 参考博客：https://www.cnblogs.com/wmr95/articles/7768492.html
 
 
