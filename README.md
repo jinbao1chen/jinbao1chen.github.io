@@ -35,6 +35,9 @@
 * 百度统计注册
 > https://tongji.baidu.com/web/welcome/login
 
+* 来必力注册
+> http://livere.com/my_Livere
+
 ### 提示
 
 >* 如果你想使用原作者的模板，请把 _posts/ 目录下的文章都去掉。
