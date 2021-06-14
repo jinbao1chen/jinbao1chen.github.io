@@ -1,0 +1,17 @@
+I"�
+<ul>
+  <li><a href="#背景">背景</a></li>
+  <li><a href="#配置环境">配置环境</a>
+    <ul>
+      <li><a href="#搭建环境必须">搭建环境（必须）</a></li>
+      <li><a href="#安装atom非必须">安装Atom（非必须）</a></li>
+      <li><a href="#申请github必须">申请GitHub（必须）</a></li>
+      <li><a href="#正式安装jekyll">正式安装jekyll</a></li>
+      <li><a href="#创建个人博客部署步骤">创建个人博客部署步骤</a></li>
+      <li><a href="#可能需要的资料">可能需要的资料</a></li>
+      <li><a href="#如何写博客">如何写博客</a></li>
+      <li><a href="#如何git-push">如何git push</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

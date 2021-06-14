@@ -1,0 +1,91 @@
+I"�<p>　　一直想找个地方记录一下学习笔记，方便后面随时都能查阅，线上记录笔记最好，相信大家都有这个想法。菜鸟的我想到了B站搜一下学习视频，还真发现了一个up主“酒石酸”，https://www.bilibili.com/video/BV14x411t7ZU?from=search&amp;seid=2757499629640417432，不是打广告，算是对知识传递的一种肯定。讲解的是用一位大佬“潘柏信”模板，https://leopardpan.cn/，借助github搭建免费版的个人博客网页。如大家有兴趣，可以根据网址教程学习。</p>
+
+<h2 id="背景">背景</h2>
+
+<p>之前写个人博客是在CSDN，主要目的是想记录学习笔记，也方便后面遗忘的时候翻看查阅。其实在网上查问题的时候，发现大家写博客的地方有CSDN、博客园、简书等主流，如果能够有一个个人的网页也是非常酷的事情。那么就开搞吧！</p>
+
+<h2 id="配置环境">配置环境</h2>
+
+<h3 id="搭建环境必须">搭建环境（必须）</h3>
+
+<p>Ubuntu系统（我的是Ubuntu16.04）</p>
+
+<h3 id="安装atom非必须">安装Atom（非必须）</h3>
+<p>作用：本地editor(自己孤陋寡闻，发现这个还挺好用)</p>
+
+<h3 id="申请github必须">申请GitHub（必须）</h3>
+<p>作用：是用来做博客的远程创库、域名、服务器之类的。
+<a href="https://github.com/">github</a>账号我也不再啰嗦了,没有的话直接申请就行了，跟一般的注册账号差不多，SSH Keys，看你自己了，可以不配制，不配置的话以后每次对自己的博客有改动提交的时候就要手动输入账号密码，配置了就不需要了，怎么配置我就不多说了，网上有很多教程。</p>
+
+<h3 id="正式安装jekyll">正式安装jekyll</h3>
+<p>需要依赖ruby，版本&gt;2.4,如果不是需要升级一下版本，否则无法安装jekyll。我的本来是2.3.1，后面升级到2.6。
+1.Ubuntu16.04 更新 ruby-2.6 https://www.cnblogs.com/dlonng/p/13138693.html</p>
+
+<p>$ ruby -v      #查看当前ruby版本，低于2.4需要升级</p>
+
+<p>$ sudo add-apt-repository ppa:brightbox/ruby-ng    #更新 2.6，先添加仓库
+    sudo apt-get update</p>
+
+<p>$ sudo apt-get purge –auto-remove ruby    #删除低版本的 ruby</p>
+
+<p>$ sudo apt-get install ruby2.6 ruby2.6-dev    #安装 ruby-2.6 版本</p>
+
+<p>$ sudo gem install jekyll    #安装jekyll</p>
+
+<h3 id="创建个人博客部署步骤">创建个人博客部署步骤</h3>
+<p>请参考视频教程：https://www.bilibili.com/video/BV14x411t7ZU?from=search&amp;seid=2757499629640417432
+或原模板作者的博客：https://leopardpan.cn/2016/10/jekyll_tutorials1/</p>
+
+<h3 id="可能需要的资料">可能需要的资料</h3>
+<p>安装Atom
+https://www.cnblogs.com/EasonJim/p/7570667.html</p>
+
+<p>安装jekyll可能遇到的问题
+https://blog.csdn.net/rui888/article/details/103822690</p>
+
+<p>百度统计注册
+https://tongji.baidu.com/web/welcome/login</p>
+
+<p>来必力注册
+http://livere.com/</p>
+
+<h3 id="如何写博客">如何写博客</h3>
+<p>所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。</p>
+
+<p>　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 2016-10-16-welcome-to-jekyll副本.markdown ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://leopardpan.cn/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开</p>
+
+<h1 id="layout-post">layout: post</h1>
+
+<h1 id="title--welcome-to-jekyll">title:  “Welcome to Jekyll!”</h1>
+
+<h1 id="date---2016-10-16-112908-0800">date:   2016-10-16 11:29:08 +0800</h1>
+
+<h1 id="categories-jekyll-update">categories: jekyll update</h1>
+
+<p>正文…</p>
+
+<h1 id="title-显示的文章名-如title-我的第一篇文章">title: 显示的文章名， 如：title: 我的第一篇文章</h1>
+
+<h1 id="date-显示的文章发布日期如date-2016-10-16">date: 显示的文章发布日期，如：date: 2016-10-16</h1>
+
+<h1 id="categories-tag标签的分类如categories-随笔">categories: tag标签的分类，如：categories: 随笔</h1>
+
+<p>注意：文章头部格式必须为上面的，…. 就是文章的正文内容。</p>
+
+<p>原作者写文章使用的是 Sublime Text2 编辑器，如果你对 markdown 语法不熟悉的话，可以看看https://www.zybuluo.com/mdeditor</p>
+
+<h3 id="如何git-push">如何git push</h3>
+<p>1.本地仓库修改完毕后，进入到~/github/jinbao1chen.github.io$执行：git add .</p>
+
+<p>2.检查当前的git状态: git status</p>
+
+<p>3.commit推送,将缓存区的修改提交到本地仓库: git commit -m “first time to upload github”</p>
+
+<p>4.如果该仓库是第一次进行push，则指令如下：git push origin master</p>
+
+<p>5.之前已经传输过，此处只是更新，所以只需输入：git push</p>
+
+<p>参考博客：https://www.cnblogs.com/wmr95/articles/7768492.html</p>
+
+<p>转载请注明原地址，博客：[http:jinbao1chen.github.io] 谢谢！</p>
+:ET
