@@ -1,0 +1,40 @@
+I"6<p>一个刚参加工作新手，目前正在学习Linux、C/C++、系统编程、通信。</p>
+
+<h2> 我的博客 </h2>
+
+<p>博客模板使用的是一位大佬的，大家喜欢可以自行去下载。</p>
+
+<p>在使用模板搭建个人博客的过程一些简单的记录，可参考
+<a href="/2021/06/jekyll/"> Jekyll 搭建个人博客 </a>
+教程</p>
+
+<p>博客源码在 <a target="_blank" href="https://github.com/jinbao1chen/jinbao1chen.github.io/">Github</a> 上，你的 Star 是我的动力，谢谢~</p>
+
+<h3> 搭建博客遇到了问题解法方法 </h3>
+
+<p>查看 <a href="https://jinbao1chen.github.io/support/">技术支持</a> 需求帮助</p>
+
+<section class="post-comments">
+
+  <!-- 来必力City版安装代码 -->
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81MzU1Ni8zMDAzMA==">
+  	<script type="text/javascript">
+     (function(d, s) {
+         var j, e = d.getElementsByTagName(s)[0];
+
+         if (typeof LivereTower === 'function') { return; }
+
+         j = d.createElement(s);
+         j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+         j.async = true;
+
+         e.parentNode.insertBefore(j, e);
+     })(document, 'script');
+  	</script>
+  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
+  <!-- City版安装代码已完成 -->
+
+</section>
+
+:ET

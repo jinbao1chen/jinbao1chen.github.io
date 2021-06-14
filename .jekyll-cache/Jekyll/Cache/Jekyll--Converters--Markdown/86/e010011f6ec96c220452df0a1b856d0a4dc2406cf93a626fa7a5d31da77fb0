@@ -1,0 +1,37 @@
+I"8<p>博客源码在 <a target="_blank" href="https://github.com/jinbao1chen/jinbao1chen.github.io">Github</a> 上.</p>
+
+<p>遇到问题请先自行排查，可以直接在<a href="https://github.com/jinbao1chen/jinbao1chen.github.io/issues">Issues</a>里面提问，不过回复的可能不及时。</p>
+
+<h3> 如何联系到我 </h3>
+
+<p>
+email：ch_cjb@163.com       
+<p>
+qq: 995479574     
+<p>
+
+<section class="post-comments">
+
+  <!-- 来必力City版安装代码 -->
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81MzU1Ni8zMDAzMA==">
+  	<script type="text/javascript">
+     (function(d, s) {
+         var j, e = d.getElementsByTagName(s)[0];
+
+         if (typeof LivereTower === 'function') { return; }
+
+         j = d.createElement(s);
+         j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+         j.async = true;
+
+         e.parentNode.insertBefore(j, e);
+     })(document, 'script');
+  	</script>
+  <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+  </div>
+  <!-- City版安装代码已完成 -->
+
+</section>
+
+</p></p></p>
+:ET
