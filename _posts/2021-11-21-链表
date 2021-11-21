@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "链表"
-date: 2021-06-20
+date: 2021-11-21
 description: "C语言单向链表"
-tag: C++
+tag: C
 ---
 
 ## 链表
----
+```
 # ifndef _NODE_H_
 # define _NODE_H_
 
@@ -73,10 +73,10 @@ void add(List* pList, int number)
 		pList->head = p;
 	}
 }
----
+```
 
 //省略遍历才能找到链表末尾
----
+```
 #include "node.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -129,10 +129,10 @@ void add(List* pList, int number)
 //	}
 	//How to write tail->head ?
 }
----
+```
 
 ## 打印链表内容
----
+```
 #include "node.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -198,11 +198,11 @@ void print(List *pList)
 	}
 	printf("\n");
 }
----
+```
 
 ## 删除指定链表元素 & 清除链表
 输入一个数字并在链表中找到该数字且删除
----
+```
 #include "node.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -312,4 +312,4 @@ void print(List *pList)
 	}
 	printf("\n");
 }
----
+```
