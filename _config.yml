@@ -49,6 +49,7 @@ baidu:
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
+timezone: Asia/Shanghai
 
 permalink: /:year/:month/:title/
 # Format
